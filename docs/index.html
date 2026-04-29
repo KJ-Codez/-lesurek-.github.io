@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Zeke the Wonder Dog | Data Science Portfolio</title>
+  <title>Kendall LeSure | Data Science Portfolio</title>
 
   <!-- Base styles always loaded -->
   <link rel="stylesheet" href="css/base.css" />
@@ -45,6 +45,232 @@ My work ranges from healthcare analytics, including a project with Henry Ford He
 
   <div class="project-grid">
     
+    <article class="project-card">
+
+      <!-- Project thumbnail image -->
+      <div class="project-image-wrapper">
+        <img
+          src="img/nba_logo.png"
+          alt="Thumbnail for NBA Draft Lottery Simulation"
+          class="project-image"
+        />
+      </div>
+
+      <div class="project-body">
+        <h3 class="project-title">NBA Draft Lottery Simulation</h3>
+
+        <!-- Short summary written for a non-expert audience -->
+        <p class="project-summary">Developed a predictive model to simulate top 10 NBA Draft selections by combining a custom player ranking algorithm with team-specific positional needs, enabling more realistic draft projections beyond traditional stat-based rankings.&#34;
+</p>
+
+        <!-- Tech stack as pill badges -->
+        <div class="tech-stack">
+          
+          <span class="tech-badge">Python</span>
+          
+          <span class="tech-badge">pandas</span>
+          
+          <span class="tech-badge">Jupyter Notebooks</span>
+          
+        </div>
+
+        <!-- Collapsible details (problem / approach / results) -->
+        <details class="project-details">
+          <summary>More details</summary>
+
+          <div class="detail-block">
+            <h4>Problem</h4>
+            <p>Current NBA Draft analysis is largely driven by static rankings and subjective  mock drafts, which fail to capture the dynamic interaction between player  availability and team decision-making. This limits the ability to explore  realistic draft scenarios, evaluate alternative outcomes, and understand how  team needs influence selections.
+</p>
+          </div>
+
+          <div class="detail-block">
+            <h4>Approach</h4>
+            <p>I developed a simulation-based framework that models the  NBA Draft as a sequential decision-making process. The approach combines a  custom player ranking system with team-specific positional needs, allowing  each pick to dynamically respond to both player availability and roster context.
+</p>
+          </div>
+
+          <div class="detail-block">
+            <h4>Results &amp; Impact</h4>
+            <p>We simulated both the 2023 and 2024 NBA Drafts, given the current player pool,  roster constructions and draft order. Out of the 10 picks in each simulation, 75% of  the selections were within 1-2 picks of the actual draft outcomes and 25% of the  simulated picks matched the real selections exactly.
+</p>
+          </div>
+        </details>
+
+        <!-- Links to the GitHub repo and notebook -->
+        <div class="project-links">
+          
+          <a href="https://github.com/KJ-Codez/nba-draft-sim" target="_blank" rel="noopener" class="btn btn-repo">
+            View Repo
+          </a>
+          
+          
+          <a href="https://github.com/KJ-Codez/nba-draft-sim/blob/master/notebooks/FINALDRAFT.ipynb" target="_blank" rel="noopener" class="btn btn-notebook">
+            View Notebook
+          </a>
+          
+        </div>
+      </div>
+
+    </article>
+    
+    <article class="project-card">
+
+      <!-- Project thumbnail image -->
+      <div class="project-image-wrapper">
+        <img
+          src="img/e41e827336e592fc084566be2bff2665-new-york-skyline-badge-vector.png"
+          alt="Thumbnail for AWS | NYC 311 Requests Data Analysis"
+          class="project-image"
+        />
+      </div>
+
+      <div class="project-body">
+        <h3 class="project-title">AWS | NYC 311 Requests Data Analysis</h3>
+
+        <!-- Short summary written for a non-expert audience -->
+        <p class="project-summary">For my AWS project, I worked with a real-world NYC 311 complaints dataset to  perform cloud-based data analysis using SQL and AWS services. I cleaned and  queried large-scale data to uncover trends such as complaint volume by agency,  borough, and time period. I also resolved SQL date-parsing issues, optimized queries,  and used GitHub for version control and project deployment. This project strengthened my  skills in cloud computing, data analytics, SQL, and collaborative software workflows.
+</p>
+
+        <!-- Tech stack as pill badges -->
+        <div class="tech-stack">
+          
+          <span class="tech-badge">AWS S3</span>
+          
+          <span class="tech-badge">AWS Athena</span>
+          
+          <span class="tech-badge">python</span>
+          
+          <span class="tech-badge">SQL</span>
+          
+          <span class="tech-badge">pandas</span>
+          
+          <span class="tech-badge">scikit-learn</span>
+          
+          <span class="tech-badge">matplotlib</span>
+          
+          <span class="tech-badge">Jupyter Notebooks</span>
+          
+        </div>
+
+        <!-- Collapsible details (problem / approach / results) -->
+        <details class="project-details">
+          <summary>More details</summary>
+
+          <div class="detail-block">
+            <h4>Problem</h4>
+            <p>The city receives a high volume of 311 service requests each year, making it  difficult to efficiently allocate resources and provide residents with accurate  imelines for issue resolution. Decision-makers need to identify which complaint types,  agencies, and boroughs generate the greatest demand so resources can be prioritized  where they are needed most. In addition, agency directors need a predictive  tool that estimates expected resolution time when a complaint is filed,  using factors such as complaint type, location, agency workload, and seasonality.  olving these challenges would improve operational efficiency, response  planning, and resident satisfaction.
+</p>
+          </div>
+
+          <div class="detail-block">
+            <h4>Approach</h4>
+            <p>To address this problem, the project will begin with exploratory data analysis on the NYC 311 complaints dataset using SQL and Python to identify the most frequent complaints by agency, borough, and complaint type. Aggregation queries and visualizations will be used to highlight service hotspots and recurring operational bottlenecks. Next, the data will be cleaned and transformed by handling missing values, standardizing categories, and engineering features such as day of week, month, season, borough, complaint type, and submitting agency. Resolution time will be calculated as the difference between complaint creation and close dates.
+Finally, machine learning regression models such as Linear Regression, Random Forest, and Gradient Boosting will be developed to predict expected resolution time at the moment a complaint is filed. Model performance will be evaluated using metrics such as MAE, RMSE, and R². The final output will include actionable recommendations for resource prioritization and a predictive tool that helps agencies set realistic expectations for residents.
+</p>
+          </div>
+
+          <div class="detail-block">
+            <h4>Results &amp; Impact</h4>
+            <p>The analysis identified the agencies, boroughs, and complaint types with the highest service request volumes, providing clear insight into where city resources should be prioritized. Frequent complaint categories revealed recurring operational pressure points, allowing decision-makers to better target staffing and response efforts.
+The Linear Regression model produced a Mean Absolute Error (MAE) of 1.88 days, Root Mean Squared Error (RMSE) of 4.12 days, and an R² of 0.364. These results indicate the model can provide a reasonable baseline estimate of complaint resolution time, though additional factors could further improve accuracy.
+The overall impact of this project is a data-driven framework that supports smarter resource allocation and more transparent service expectations for residents. By combining operational trend analysis with predictive modeling, city agencies can improve efficiency, reduce delays, and strengthen public trust.
+</p>
+          </div>
+        </details>
+
+        <!-- Links to the GitHub repo and notebook -->
+        <div class="project-links">
+          
+          <a href="https://github.com/KJ-Codez/aws-lesurek1-nyc311" target="_blank" rel="noopener" class="btn btn-repo">
+            View Repo
+          </a>
+          
+          
+          <a href="https://github.com/KJ-Codez/aws-lesurek1-nyc311/blob/master/%20notebooks/modeling_train_and_eval.ipynb" target="_blank" rel="noopener" class="btn btn-notebook">
+            View Notebook
+          </a>
+          
+        </div>
+      </div>
+
+    </article>
+    
+    <article class="project-card">
+
+      <!-- Project thumbnail image -->
+      <div class="project-image-wrapper">
+        <img
+          src="img/147-1477050_increase-profit-progress-revenue-sales-top-up-increase-sales-icon-png.png"
+          alt="Thumbnail for Sales Data Analysis"
+          class="project-image"
+        />
+      </div>
+
+      <div class="project-body">
+        <h3 class="project-title">Sales Data Analysis</h3>
+
+        <!-- Short summary written for a non-expert audience -->
+        <p class="project-summary">This project uses Python to analyze sales and customer CSV data by  merging datasets, cleaning records, and calculating key business  metrics such as total revenue, order counts, and regional averages.  It generates a summary CSV report and a visualization of revenue by  region, helping users quickly understand sales performance and make data-driven decisions.
+</p>
+
+        <!-- Tech stack as pill badges -->
+        <div class="tech-stack">
+          
+          <span class="tech-badge">Python</span>
+          
+          <span class="tech-badge">pandas</span>
+          
+          <span class="tech-badge">numpy</span>
+          
+          <span class="tech-badge">matplotlib</span>
+          
+          <span class="tech-badge">docker</span>
+          
+          <span class="tech-badge">Jupyter Notebooks</span>
+          
+        </div>
+
+        <!-- Collapsible details (problem / approach / results) -->
+        <details class="project-details">
+          <summary>More details</summary>
+
+          <div class="detail-block">
+            <h4>Problem</h4>
+            <p>Sales and customer data are often stored in separate files, making  it hard to evaluate business performance quickly. This project combines  raw CSV data to uncover revenue trends and regional performance insights.
+</p>
+          </div>
+
+          <div class="detail-block">
+            <h4>Approach</h4>
+            <p>Using Python, the project loads and merges sales and customer datasets, cleans the data, and calculates key metrics such as total revenue, order counts,  and averages by region and category. Results are exported to a summary CSV,  and a revenue-by-region chart is created.
+</p>
+          </div>
+
+          <div class="detail-block">
+            <h4>Results &amp; Impact</h4>
+            <p>The project produces a clean summary dataset and visualization that make sales  trends easier to understand. These outputs help identify top-performing regions,  weaker markets, and support faster data-driven business decisions.
+</p>
+          </div>
+        </details>
+
+        <!-- Links to the GitHub repo and notebook -->
+        <div class="project-links">
+          
+          <a href="https://github.com/KJ-Codez/cmse492-hw01-lesurek1" target="_blank" rel="noopener" class="btn btn-repo">
+            View Repo
+          </a>
+          
+          
+          <a href="https://github.com/KJ-Codez/cmse492-hw01-lesurek1/blob/main/juypter_notebooks/quick_run_demo.ipynb" target="_blank" rel="noopener" class="btn btn-notebook">
+            View Notebook
+          </a>
+          
+        </div>
+      </div>
+
+    </article>
+    
   </div>
 </section>
 
@@ -61,13 +287,13 @@ My work ranges from healthcare analytics, including a project with Henry Ford He
     
     <li>
       <span class="contact-label">LinkedIn:</span>
-      <a href="https://www.linkedin.com/in/zeke-the-wonder-dog" target="_blank" rel="noopener">https://www.linkedin.com/in/zeke-the-wonder-dog</a>
+      <a href="https://www.linkedin.com/in/kendall-lesure/" target="_blank" rel="noopener">https://www.linkedin.com/in/kendall-lesure/</a>
     </li>
     
     
     <li>
       <span class="contact-label">GitHub:</span>
-      <a href="https://github.com/zeke-wonder-dog" target="_blank" rel="noopener">https://github.com/zeke-wonder-dog</a>
+      <a href="https://github.com/KJ-Codez" target="_blank" rel="noopener">https://github.com/KJ-Codez</a>
     </li>
     
   </ul>
