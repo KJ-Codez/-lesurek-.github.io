@@ -1,0 +1,42 @@
+# ============================================================
+# content/projects/example_project_2.yaml
+# ============================================================
+# Example project: Crowd Cheer Analysis at Spartan Football Games
+# Copy this file to create your own project entries.
+# ============================================================
+
+title: "Sales Data Analysis"
+
+short_summary: >
+  This project uses Python to analyze sales and customer CSV data by 
+  merging datasets, cleaning records, and calculating key business 
+  metrics such as total revenue, order counts, and regional averages. 
+  It generates a summary CSV report and a visualization of revenue by 
+  region, helping users quickly understand sales performance and make data-driven decisions.
+tech_stack:
+  - Python
+  - pandas
+  - numpy
+  - matplotlib
+  - docker
+  - Jupyter Notebooks
+
+problem_statement: >
+  Sales and customer data are often stored in separate files, making 
+  it hard to evaluate business performance quickly. This project combines 
+  raw CSV data to uncover revenue trends and regional performance insights.
+
+approach: >
+ Using Python, the project loads and merges sales and customer datasets,
+ cleans the data, and calculates key metrics such as total revenue, order counts, 
+ and averages by region and category. Results are exported to a summary CSV, 
+ and a revenue-by-region chart is created.
+
+results_impact: >
+ The project produces a clean summary dataset and visualization that make sales 
+ trends easier to understand. These outputs help identify top-performing regions, 
+ weaker markets, and support faster data-driven business decisions.
+
+repo_url: "https://github.com/KJ-Codez/cmse492-hw01-lesurek1"
+notebook_url: "https://github.com/KJ-Codez/cmse492-hw01-lesurek1/blob/main/juypter_notebooks/quick_run_demo.ipynb"
+image_path: "img/147-1477050_increase-profit-progress-revenue-sales-top-up-increase-sales-icon-png.png"

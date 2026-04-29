@@ -6,19 +6,22 @@
 # information, and update portfolio_config.yaml to point to it.
 # ============================================================
 
-name: "Kendall LeSure"
-tagline: "Aspiring Data Scientist | Vice President of Rising Black Men"
+name: "Kendall Duran LeSure Jr."
+tagline: "Data Scientist | Michigan State University Alumni"
 
-about: |
+about:
  I’m a Data Science student at Michigan State University interested in 
  using data to understand real-world systems and patterns. I build 
  end-to-end data pipelines and machine learning projects using Python, 
  SQL, and Git.  
 
- My work ranges from healthcare analytics, including a project with Henry Ford Health on RUSH ultrasound exams, to exploring data in areas I’m passionate about like sports and anime. I enjoy using statistics and machine learning to turn interesting datasets into meaningful insights.
+ My work ranges from healthcare analytics, including a project with Henry Ford Health on RUSH
+ ultrasound exams, to exploring data in areas I’m passionate about 
+ I enjoy using statistics and machine learning to turn interesting datasets 
+ into meaningful insights.
 
 
 # Contact information — remove any fields you prefer not to share
-email: "zeke@msu.edu"
+email: "lesurek1@msu.edu"
 linkedin: "https://www.linkedin.com/in/zeke-the-wonder-dog"
 github: "https://github.com/zeke-wonder-dog"

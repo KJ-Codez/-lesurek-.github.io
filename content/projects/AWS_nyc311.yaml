@@ -1,0 +1,54 @@
+# ============================================================
+# content/projects/example_project_2.yaml
+# ============================================================
+# Example project: Crowd Cheer Analysis at Spartan Football Games
+# Copy this file to create your own project entries.
+# ============================================================
+
+title: "AWS | NYC 311 Requests Data Analysis"
+
+short_summary: >
+  For my AWS project, I worked with a real-world NYC 311 complaints dataset to 
+  perform cloud-based data analysis using SQL and AWS services. I cleaned and 
+  queried large-scale data to uncover trends such as complaint volume by agency, 
+  borough, and time period. I also resolved SQL date-parsing issues, optimized queries, 
+  and used GitHub for version control and project deployment. This project strengthened my 
+  skills in cloud computing, data analytics, SQL, and collaborative software workflows.
+
+tech_stack:
+  - AWS S3
+  - AWS Athena
+  - python
+  - SQL
+  - pandas
+  - scikit-learn
+  - matplotlib
+  - Jupyter Notebooks
+
+problem_statement: >
+  The city receives a high volume of 311 service requests each year, making it 
+  difficult to efficiently allocate resources and provide residents with accurate 
+  imelines for issue resolution. Decision-makers need to identify which complaint types, 
+  agencies, and boroughs generate the greatest demand so resources can be prioritized 
+  where they are needed most. In addition, agency directors need a predictive 
+  tool that estimates expected resolution time when a complaint is filed, 
+  using factors such as complaint type, location, agency workload, and seasonality. 
+  olving these challenges would improve operational efficiency, response 
+  planning, and resident satisfaction.
+
+approach: >
+  To address this problem, the project will begin with exploratory data analysis on the NYC 311 complaints dataset using SQL and Python to identify the most frequent complaints by agency, borough, and complaint type. Aggregation queries and visualizations will be used to highlight service hotspots and recurring operational bottlenecks.
+  Next, the data will be cleaned and transformed by handling missing values, standardizing categories, and engineering features such as day of week, month, season, borough, complaint type, and submitting agency. Resolution time will be calculated as the difference between complaint creation and close dates.
+
+  Finally, machine learning regression models such as Linear Regression, Random Forest, and Gradient Boosting will be developed to predict expected resolution time at the moment a complaint is filed. Model performance will be evaluated using metrics such as MAE, RMSE, and R². The final output will include actionable recommendations for resource prioritization and a predictive tool that helps agencies set realistic expectations for residents.
+
+results_impact: >
+  The analysis identified the agencies, boroughs, and complaint types with the highest service request volumes, providing clear insight into where city resources should be prioritized. Frequent complaint categories revealed recurring operational pressure points, allowing decision-makers to better target staffing and response efforts.
+
+  The Linear Regression model produced a Mean Absolute Error (MAE) of 1.88 days, Root Mean Squared Error (RMSE) of 4.12 days, and an R² of 0.364. These results indicate the model can provide a reasonable baseline estimate of complaint resolution time, though additional factors could further improve accuracy.
+
+  The overall impact of this project is a data-driven framework that supports smarter resource allocation and more transparent service expectations for residents. By combining operational trend analysis with predictive modeling, city agencies can improve efficiency, reduce delays, and strengthen public trust.
+
+repo_url: "https://github.com/KJ-Codez/aws-lesurek1-nyc311"
+notebook_url: "https://github.com/KJ-Codez/aws-lesurek1-nyc311/blob/master/%20notebooks/modeling_train_and_eval.ipynb"
+image_path: "img/e41e827336e592fc084566be2bff2665-new-york-skyline-badge-vector.png"

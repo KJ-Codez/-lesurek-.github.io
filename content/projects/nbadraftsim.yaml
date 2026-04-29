@@ -1,0 +1,41 @@
+# ============================================================
+# content/projects/example_project_1.yaml
+# ============================================================
+# Example project: Predicting the Best Nap Spots on Campus
+# Copy this file to create your own project entries.
+# ============================================================
+
+title: "NBA Draft Lottery Simulation"
+
+short_summary: >
+  Developed a predictive model to simulate top 10 NBA Draft selections by
+  combining a custom player ranking algorithm with team-specific positional needs,
+  enabling more realistic draft projections beyond traditional stat-based rankings."
+
+tech_stack:
+  - Python
+  - pandas
+  - Jupyter Notebooks
+
+problem_statement: >
+  Current NBA Draft analysis is largely driven by static rankings and subjective 
+  mock drafts, which fail to capture the dynamic interaction between player 
+  availability and team decision-making. This limits the ability to explore 
+  realistic draft scenarios, evaluate alternative outcomes, and understand how 
+  team needs influence selections.
+
+approach: >
+  I developed a simulation-based framework that models the 
+  NBA Draft as a sequential decision-making process. The approach combines a 
+  custom player ranking system with team-specific positional needs, allowing 
+  each pick to dynamically respond to both player availability and roster context.
+
+results_impact: >
+  We simulated both the 2023 and 2024 NBA Drafts, given the current player pool, 
+  roster constructions and draft order. Out of the 10 picks in each simulation, 75% of 
+  the selections were within 1-2 picks of the actual draft outcomes and 25% of the 
+  simulated picks matched the real selections exactly.
+
+repo_url: "https://github.com/KJ-Codez/nba-draft-sim"
+notebook_url: "https://github.com/KJ-Codez/nba-draft-sim/blob/master/notebooks/FINALDRAFT.ipynb"
+image_path: "img/nba_logo.png"
